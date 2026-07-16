@@ -1,1 +1,0 @@
-This is a text file created on the windows laptop git bash using nano! Hello world.
