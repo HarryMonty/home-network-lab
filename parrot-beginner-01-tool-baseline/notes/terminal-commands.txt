@@ -1,0 +1,37 @@
+Sheet to keep a list of basic terminal commands
+
+ls = Creates a list of items inside the current directory.
+pwd = Shows the current directory I am in.
+cd "" = Change directory, e.g. "cd ~" will change to root directory.
+cd .. = Go to parent directory.
+cd - = Go back to previous directory.
+mkdir "" = Make directory, e.g. "mkdir Folder" will create a directory "Folder".
+rm "" = Remove.
+mv "" "" = Rename. 
+ctrl + l = Clears the terminal.
+grep "" = Filters that argument as a keyword
+
+Administrative
+
+sudo apt update = Update system's database to know which software packages are availabe
+sudo apt upgrade = Upgrade the system with available packages
+sudo apt install "" = Install a specific package
+whoami = Current user
+hostname = Current system user name
+uname -r = Kernal & system information
+
+touch "" = Create a new, empty file
+nano "" = Edit or Create a file
+micro "" = Advanced file editor
+cat "" = Read a file
+
+ip a = Show devices IP information
+sudo ifconfig = Another way to show the device IP information
+
+Command flags
+
+-y = Automatically aplly Yes to any questions during a command
+&& = Allows a second command to be run on the same line
+-l -a = Used with ls, to show extra details such as hidden files, permissions, owners, file sizes and dates
+-r = Recursive, applies the command to everything within the argument, e.g. "rm -r folder"
+ | = Connects multiple commands together to work simultaneously
