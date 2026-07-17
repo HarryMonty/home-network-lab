@@ -1,5 +1,6 @@
 Sheet to keep a list of basic terminal commands
 
+man "" = Brings up a manual of any command to learn what it does.
 ls = Creates a list of items inside the current directory.
 pwd = Shows the current directory I am in.
 cd "" = Change directory, e.g. "cd ~" will change to root directory.
@@ -7,15 +8,23 @@ cd .. = Go to parent directory.
 cd - = Go back to previous directory.
 mkdir "" = Make directory, e.g. "mkdir Folder" will create a directory "Folder".
 rm "" = Remove.
-mv "" "" = Rename. 
+mv "" "" = Can be used to Move or Rename files. 
 ctrl + l = Clears the terminal.
-grep "" = Filters that argument as a keyword
+echo '' > "" = Adds text into a file. (>> puts the text below the current text).
+cp "" "" = Copy a file and name it something new.
+file "" = Tells you the type of file it is.
+du -sh = States how large the files within the directory are.
+
+history = Shows all the commands previously run on the terminal.
+grep "" = Filters that argument as a keyword.
+ping = Ping a specific IP or DNS address.
 
 Administrative
 
 sudo apt update = Update system's database to know which software packages are availabe
 sudo apt upgrade = Upgrade the system with available packages
 sudo apt install "" = Install a specific package
+sudo find / -name "" = Searches the OS for a specific file.
 whoami = Current user
 hostname = Current system user name
 uname -r = Kernal & system information
@@ -27,9 +36,12 @@ cat "" = Read a file
 
 ip a = Show devices IP information
 sudo ifconfig = Another way to show the device IP information
+sudo netdiscover = Detect devices sending ARP requests on the network
+ip route show = Show how your device is routed through the network
 
 Command flags
 
+-h = Provides information about what the command does
 -y = Automatically aplly Yes to any questions during a command
 && = Allows a second command to be run on the same line
 -l -a = Used with ls, to show extra details such as hidden files, permissions, owners, file sizes and dates
